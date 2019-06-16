@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Aliens Society</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+    <!--Bootsstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!--js script-->
+    <script type="text/javascript" src="script.js" ></script>
+  </head>
+  <body>
+    <!--responsive header nav from Materialize (Modified)-->
+    <nav>
+      <div class="nav-wrapper">
+        <img src="logo.png" alt="Aliens Logo" style="padding: 10px;">
+        <a href="#" class="brand-logo">Aliens</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <!--navigation bar-->
+          <li><a class="waves-effect waves-light btn" href="#signUp">SignUp</a></li>
+          <li><a class="waves-effect waves-light btn" href="#news">News</a></li>
+          <li><a class="waves-effect waves-light btn" href="#aliens-fourms">Fourms</a></li>
+          <li><a class="waves-effect waves-light btn" href="#footer">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+      <!--Add the alt-->
+    <div style="text-align:center;">
+      <img id="book" src="book.jpg" alt="an open book" width="100%">
+      <div id="welcome">
+        <h4 style="text-align: center; color: white;">Smile! Cuz you are surfing the Aliens website
+        </h4>
+        <h5 style="text-align: center; color: white;">Aliens is a community of individuals learning and sharing tech knowledge, news and solutions
+          <br>
+          you Are more than welcome to <a href="#signUp">join</a> our society..
+        </h5>
+      </div>
+    </div>
+
+
+     
+    <div style="background-color:#00695c;">
+      <div id="news" class="container">
+        <br><hr>
+        
+
+        <h1 style="margin-left:-10px; color:white;">Latest news </h1><hr>
+        <!-- cards from Materialize edited by me :)-->
+        <div class="row col s9">
+          <div class="col s4">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://www.lform.com/_assets/packages/wp/assets/uploaded/2017/08/lform_javascript_blog_header_image-1600x1080.jpg" alt="javascript coding">
+                <span class="card-title">JavaScript Course</span>
+              </div>
+              <div class="card-content">
+                <p>Because JavaScript is a great language for coding beginners, we've gathered some of the best learning resources around and built a JavaScript course to help new developers get up and running...</p>
+              </div>
+              <div class="card-action">
+                <a href="#!">More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s4">
+            <div class="card">
+              <div class="card-image">
+                <img src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/4930/s1200/python-easy-to-learn-programming-language.png" alt="python coding">
+                <span class="card-title">Python on Windows10</span>
+              </div>
+              <div class="card-content">
+                <p>Today the Windows team announced the May 2019 Update for Windows 10. In this post we’re going to look at what we, Microsoft’s Python team, have done to make Python easier to install on Windows...</p>
+              </div>
+              <div class="card-action">
+                <a href="#!">More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+
+        <!-- in this part I've used (inline-block) to align the 'divs' next to each other also i've made it mobile resposive using css-->
+        <!--i'm more used to 'display;bla' than floats although i think float would be easier to use-->
+        <div id="aliens-fourms">
+          <h1 style="color:white;">Aliens forums</h1><hr>
+
+          <div id="apps" class="inline-block">
+            <h3>BEST APPS</h3><hr>
+            <ul>
+              <li><a href="#">Youtube Vanced</a></li>
+              <li><a href="#">SoloLearn</a></li>
+              <li><a href="#">Andrax</a></li>
+              <li><a href="#">XPrivacyLua</a></li>
+            </ul>
+          </div>
+
+          <div class="inline-block" id="fourms">
+            <table class="table">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Topics</th>
+                  <th scope="col">Devices</th>
+                  <th scope="col">Andriod PIE</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><a href="#!">Development</a></td>
+                  <td><a href="#!">OnePlus 7Pro</a></td>
+                  <td><a href="#!">Lineage OS 16</a></td>
+                </tr>
+                <tr>
+                  <td><a href="#!">Reviews</a></td>
+                  <td><a href="#!">Galaxy Note 9</a></td>
+                  <td><a href="#!">Color OS</a></td>
+                </tr>
+                <tr>
+                  <td><a href="#!">App TrearsDown</a></td>
+                  <td><a href="#!">Pixel 3</a></td>
+                  <td><a href="#!">Updates</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div id="top-posts" class="inline-block">
+            <h3>TOP POSTS</h3>
+            <hr>
+            <ul>
+              <li><a href="#top-posts">How to root?</a></li>
+              <li><a href="#top-posts">What is Magisk?</a></li>
+              <li><a href="#top-posts">Wear OS</a></li>
+              <li><a href="#top-posts">Get Substratum</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+
+        <div id="signUp">
+          <hr>
+          <br>
+          <h2 style="color:white;">Be an alien! Join us</h2>
+          <!--Used a Matirialize form just cuz i like the way it looks.. for sure i could do it myself but it woudn't look that nice :( -->
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input placeholder="First Name" id="first_name" type="text" class="validate">
+                  
+                </div>
+                <div class="input-field col s6">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="password" type="password" class="validate">
+                  <label for="password">Password</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+              <!--Bootstrap Btn-->
+              <a class="waves-effect waves-light btn" href="#">Signup</a>
+            </form>
+          </div>
+
+        </div>
+        <br>
+      </div>
+    </div>
+      <div id="footer">
+        <table>
+          <thead>
+            <tr>
+              <th>Contact</th>
+              <th>Location</th>
+              <th>Support us</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <!--here Iv'e used _blank cuz clicking any link would take the user to another webiste but we don't want him to leave our site! -->
+              <td><a href="#!" target="_blank">Aliens@society.org</a></td>
+              <td><a href="#!" target="_blank">1091JS-Amsterdam 1A</a></td>
+              <td><a href="#!" target="_blank">Buy us a cup of coffee</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <hr>
+        <!-- float-->
+        <p><span style="font-style:italic; float: right;">all rights reserved © Aliens society</span></p>
+        <img src="logo.png" alt="Aliens Logo" style="padding: 10px;">
+      </div>
+  </body>
+</html>
+        
+        
+      

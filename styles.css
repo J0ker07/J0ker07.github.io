@@ -1,0 +1,129 @@
+*{
+  font-family:digital;
+  margin:0 auto;
+}
+.nav-wrapper {
+  background-color:#121212;
+}
+#welcome {
+  position:absolute;
+  text-align:center;
+  width:100%;
+  top:120px;
+  max-height:17%;
+  overflow:auto;
+}
+.container {
+  padding-top:10px;
+    text-align:center;
+
+}
+hr {
+  background-color:#81d4fa;
+  	height: 2px;
+
+}
+#qa {
+  width:65%
+}
+#footer {
+  background-color:#121212;
+  color:white;
+  padding:10px
+}
+.inline-block {
+  display:inline-block;
+  vertical-align:middle;
+  padding:10px;
+}
+#fourms {
+  width:50%;
+  padding-left: 1.3em;
+    padding-right: 1.3em;
+}
+#top-posts {
+  border-left:solid;
+  width:23%;
+}
+#top-posts ul li {
+  text-align:left;
+  padding:4px;
+      border-bottom:2px solid black;
+    border-right:3px solid black;
+        border-left:3px solid black;
+
+    text-align: center;
+}
+#apps {
+width:23%;
+border-right:solid;
+
+}
+#apps ul li {
+  text-align:left;
+    padding:4px;
+        border-bottom:2px solid black;
+    border-left:3px solid black;
+        border-right:3px solid black;
+
+    text-align: center;
+}
+ul a li:hover {
+background-color: #ddd;
+}
+.container ul a:hover {
+color:black;
+  text-decoration:none;
+  font-size:1.3em;
+
+}
+
+
+
+.table tr {
+	background-color: #f2f2f2;
+}
+ul {
+	background-color: #ddd;
+}
+#apps h3 {
+	border-left:3px solid black;
+
+}
+#top-posts h3 {
+	border-right:3px solid black;
+}
+#nav-mobile {
+	background-color: #121212;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 50em) {
+  #top-posts{
+    width: 90%;
+    display:block;
+        border-left:0px;
+
+  }
+  #apps{
+    width: 90%;
+    display:block;
+    border-right:0px;
+  }
+  #fourms{
+    width: 90%;
+    display:block;
+  }
+  #apps ul li {
+    border-bottom:1px solid white;
+    border-left:1px solid #E3F2FD;
+    
+  }
+}
