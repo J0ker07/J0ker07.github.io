@@ -126,6 +126,9 @@ ul {
     border-left:1px solid #E3F2FD;
     
   }
+  #welcome {
+  	top: 70px;
+  }
 }
 
 @media screen and (max-width: 20em) {
