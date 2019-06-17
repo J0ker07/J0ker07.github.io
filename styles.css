@@ -127,3 +127,30 @@ ul {
     
   }
 }
+
+@media screen and (max-width: 20em) {
+  #top-posts{
+    width: 90%;
+    display:block;
+        border-left:0px;
+
+  }
+  #apps{
+    width: 90%;
+    display:block;
+    border-right:0px;
+  }
+  #fourms{
+    width: 90%;
+    display:block;
+    text-align: center;
+    padding-left: 0px;
+
+  }
+  #apps ul li {
+    border-bottom:1px solid white;
+    border-left:1px solid #E3F2FD;
+    
+  }
+}
+
